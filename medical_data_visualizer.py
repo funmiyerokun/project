@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 
 # Import the data from medical_examination.csv and assign it to the df variable.
-df = pd.read_csv("C:\\Users\\HP\\Desktop\\Metro Tech Hub Training\\medical_examination_dataset.csv")
+df = pd.read_csv(r"C:\Users\HP\Desktop\project\datasets\medical_examination.csv")
 
 # Add an overweight column to the data. To determine if a person is overweight, first calculate their BMI by dividing their weight 
 # in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. Use the value 0 for NOT 
@@ -74,6 +74,6 @@ heat_map_fig = draw_heat_map()
 
 
 # Display the figures
-cat_plot_fig.savefig("C:\\Users\\HP\\Desktop\\Metro Tech Hub Training\\categorical_plot.png")
-heat_map_fig.savefig("C:\\Users\\HP\\Desktop\\Metro Tech Hub Training\\heat_map.png")
+cat_plot_fig.savefig("C:\\Users\\HP\\Desktop\\project\\charts\\categorical_plot.png")
+heat_map_fig.savefig("C:\\Users\\HP\\Desktop\\project\\charts\\heat_map.png")
     

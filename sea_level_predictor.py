@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
 # Use Pandas to import the data from epa-sea-level.csv.
-df = pd.read_csv("C:\\Users\\HP\\Desktop\\Metro Tech Hub Training\\epa-sea-level.csv")
+df = pd.read_csv(r"C:\Users\HP\Desktop\project\datasets\epa-sea-level.csv")
 
 # Use matplotlib to create a scatter plot using the Year column as the x-axis and the CSIRO Adjusted Sea Level column as the y-axis.
 plt.figure(figsize=(10, 6))

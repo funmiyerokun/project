@@ -1,7 +1,7 @@
 import pandas as pd
 
     
-df = pd.read_csv("C:\\Users\\HP\\Desktop\\Metro Tech Hub Training\\adult.data.csv")
+df = pd.read_csv(r"C:\Users\HP\Desktop\project\datasets\adult.data.csv")
 
 print(df.head()) # Viewed a part of the data
 print(df.info()) # Viewed the structure of the data

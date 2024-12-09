@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 
 # Use Pandas to import the data from "fcc-forum-pageviews.csv". Set the index to the date column.
-df = pd.read_csv("C:\\Users\\HP\\Desktop\\Metro Tech Hub Training\\fcc-forum-pageviews.csv", parse_dates=["date"], index_col="date")
+df = pd.read_csv(r"C:\Users\HP\Desktop\project\datasets\fcc-forum-pageviews.csv", parse_dates=["date"], index_col="date")
 
 # Clean the data by filtering out days when the page views were in the top 2.5% of the dataset or bottom 2.5% of the dataset.
 lower_bound = df["value"].quantile(0.025)
